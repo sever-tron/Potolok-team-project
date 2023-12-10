@@ -15,7 +15,7 @@ C:/Users/Sasha/Beer/Potolok-team-project/Beer Code
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49805
+49831
 Successfully changed project path to: C:/Users/Sasha/Beer/Potolok-team-project/Beer Code
 C:/Users/Sasha/Beer/Potolok-team-project/Beer Code
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Sasha/Beer/Potolok-team-project/Beer Code
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2664] Host "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 1830069283 [EditorId] 1830069283 [Version] 1048832 [Id] WindowsEditor(7,ASUSZEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3096] Host "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 1603219298 [EditorId] 1603219298 [Version] 1048832 [Id] WindowsEditor(7,ASUSZEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2664] Host "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 1830069283 [EditorId] 1830069283 [Version] 1048832 [Id] WindowsEditor(7,ASUSZEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3096] Host "[IP] 192.168.1.182 [Port] 0 [Flags] 2 [Guid] 1603219298 [EditorId] 1603219298 [Version] 1048832 [Id] WindowsEditor(7,ASUSZEN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 154.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 174.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.32f1 (3b9dae9532f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/Resources/UnitySubsystems
@@ -68,45 +68,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006139 seconds.
+Registered in 0.021162 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 180.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  1.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (962ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (676ms)
-			LoadAssemblies (127ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (648ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (134ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
+				RefreshPlugins (181ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005862 seconds.
+Registered in 0.028577 seconds.
 
 =================================================================
 	Native Crash Reporting
@@ -121,27 +121,26 @@ used by your application.
 =================================================================
 =================================================================
 Received signal SIGSEGV
-Obtained 22 stack frames
-0x00007ff74d216a4b (Unity) 
-0x00007ff74d22460c (Unity) 
-0x00007ff74d217125 (Unity) 
-0x00007ff74d22172e (Unity) 
-0x00007ff74d70985d (Unity) dynamic_array_detail::dynamic_array_data::resize_buffer
-0x00007ff74cc20ff8 (Unity) dynamic_array<signed char,0>::resize_buffer_nocheck
-0x00007ff74d978edc (Unity) SerializedFile::ReadHeader
-0x00007ff74d977106 (Unity) SerializedFile::InitializeRead
-0x00007ff74d959440 (Unity) PersistentManager::GetStreamNameSpaceInternal
-0x00007ff74d9588ba (Unity) PersistentManager::GetSerializedFileIfObjectAvailable
-0x00007ff74d95e38c (Unity) PersistentManager::ReadAndActivateObjectThreaded
-0x00007ff74d95ec31 (Unity) PersistentManager::ReadObjectThreaded
-0x00007ff74d95e9e7 (Unity) PersistentManager::ReadObject
-0x00007ff74cc17fb2 (Unity) PPtr<Object>::operator Object * __ptr64
-0x00007ff74d87224b (Unity) MonoScriptManager::InitializeRegisteredScripts
-0x00007ff74e7f39d7 (Unity) RegisterAssetsAndInitializeAssemblies
-0x00007ff74e7f2a1f (Unity) LoadUserAssemblies
-0x00007ff74e4f4ea3 (Unity) Application::InitializeProject
-0x00007ff74e942a58 (Unity) WinMain
-0x00007ff74fd22c9e (Unity) __scrt_common_main_seh
-0x00007ffcc0557344 (KERNEL32) 
-0x00007ffcc0ce26b1 (ntdll) 
+Obtained 21 stack frames
+0x00007ff63dcf6a4b (Unity) DynamicHeapAllocator::Allocate
+0x00007ff63dd0460c (Unity) DualThreadAllocator<DynamicHeapAllocator>::Allocate
+0x00007ff63dcf7125 (Unity) MemoryManager::Allocate
+0x00007ff63dd0172e (Unity) malloc_internal
+0x00007ff63d700ce7 (Unity) core::StringStorageDefault<char>::grow
+0x00007ff63dc92720 (Unity) core::StringStorageDefault<char>::resize
+0x00007ff63dcb6e00 (Unity) StreamedBinaryRead::Transfer<core::basic_string<char,core::StringStorageDefault<char> > >
+0x00007ff63e358998 (Unity) MonoScript::VirtualRedirectTransfer
+0x00007ff63e4596bb (Unity) SerializedFile::ReadObject
+0x00007ff63e43e5d2 (Unity) PersistentManager::ReadAndActivateObjectThreaded
+0x00007ff63e43ec31 (Unity) PersistentManager::ReadObjectThreaded
+0x00007ff63e43e9e7 (Unity) PersistentManager::ReadObject
+0x00007ff63d6f7fb2 (Unity) PPtr<Object>::operator Object * __ptr64
+0x00007ff63e35224b (Unity) MonoScriptManager::InitializeRegisteredScripts
+0x00007ff63f2d39d7 (Unity) RegisterAssetsAndInitializeAssemblies
+0x00007ff63f2d2a1f (Unity) LoadUserAssemblies
+0x00007ff63efd4ea3 (Unity) Application::InitializeProject
+0x00007ff63f422a58 (Unity) WinMain
+0x00007ff640802c9e (Unity) __scrt_common_main_seh
+0x00007ffe08027344 (KERNEL32) 
+0x00007ffe09f826b1 (ntdll) 
 
